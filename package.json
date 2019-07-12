@@ -1,0 +1,23 @@
+{
+  "name": "vue-context-menu",
+  "version": "1.0.0",
+  "description": "simple context-menu for Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jetdoodle/vue-context-menu.git"
+  },
+  "keywords": [
+    "context",
+    "menu"
+  ],
+  "author": "kwinlin(kwinlin@doodlegame.cn)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jetdoodle/vue-context-menu.git/issues"
+  },
+  "homepage": "https://github.com/jetdoodle/vue-context-menu.git#readme"
+}
