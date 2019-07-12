@@ -1,31 +1,8 @@
 /**右键菜单
- * 【说明】
- * 
-引入方法：
-        import rightMenu from "@/rightmenu.js";   //引入文件
-        Vue.use(rightMenu);   //在Vue中使用
+
 
 使用方法：
-        1. 在html标签中插入v-rightMenu="yourMenu"属性，则激活右键菜单。yourMenu是菜单的配置，例如：<div v-rightMenu="yourMenu" ></div>
-        2. 配置菜单项的方法是在data中创建参数，然后在标签中绑定。配置菜单如下：
-            yourMenu:[
-                {
-                    content: "菜单1",   //选项名  (必填)
-                    description:"描述1",  //会显示在菜单的下面，颜色较浅的文字
-                    descriptionPosition:"right",  //right时会让描述文字显示在选项名的右侧，如果没有此属性或值不为right，则描述文字会显示在下一行
-                    title："您好~"  //菜单提示
-                    callback: "methodsName"   //会根据methodsName字符串去调用当前Vue组件的methods中的方法
-                    disabled: true,   //是否禁用该项(可以使用boolean 或者判断式，如：1 > 0)
-                   disabledTitle:  "您没有权限操作"   //禁用时显示的title提示
-                },
-                {
-                    content: "---",   //选项名使用"---"可以形成一条分隔线
-                },
-                {
-                    content: "菜单1",
-                    callback: ""
-                },
-            ]
+        
  * 
  *
  */

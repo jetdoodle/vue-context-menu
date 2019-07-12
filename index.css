@@ -1,0 +1,52 @@
+.right-menu {
+  overflow: hidden;
+  border-radius: 16px;
+  padding: 12px 0;
+}
+.right-menu .right-menu-row {
+  cursor: pointer;
+  min-width: 120px;
+  max-width: 220px;
+}
+.right-menu .content {
+  margin: 6px 16px;
+}
+.right-menu {
+  font-size: 14px;
+}
+.right-menu .description {
+  opacity: 0.6;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.right-menu .right-menu-line {
+  border-top: solid 1px rgba(128, 128, 128, 0.2);
+  margin: 6px 0;
+}
+
+.right-menu .right-menu-row.disabled {
+  cursor: not-allowed;
+}
+
+/*color*/
+
+.right-menu {
+  background-color: white;
+  box-shadow: 0 22px 36px rgba(85, 153, 255, 0.35);
+}
+.right-menu .right-menu-row:hover,
+.right-menu .right-menu-row:hover p,
+.right-menu .right-menu-row:hover .description {
+  background-color: #5599ff;
+  color: #fff;
+}
+.right-menu .right-menu-row.disabled p {
+  color: #aabcd1;
+}
+.right-menu .right-menu-row.disabled:hover,
+.right-menu .right-menu-row.disabled:hover p,
+.right-menu .right-menu-row.disabled:hover .description {
+  background-color: #f4f7fc;
+  color: #aabcd1;
+}
